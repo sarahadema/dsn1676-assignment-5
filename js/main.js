@@ -11,5 +11,8 @@ $form.on('submit', function (e){
 	$li.append($formH2);
 	$list.append($li);
 
+})
 
+$list.on('click','li', function(){
+	$(this).addClass('js-complete');
 })
