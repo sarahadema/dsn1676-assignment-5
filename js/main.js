@@ -2,13 +2,13 @@ var $form = $('.form');
 var $item = $('.item');
 var $list =$('.list');
 
-$form.on('submit', function (e){
+$form.on('submit', function (e) {
 	e.preventDefault();
 
 	var $li = $('<li>');
-	var $formH2 = $('<h2>').html($form.val());
+	var $itemH2 = $('<h2>').html($item.val());
 
-	$li.append($formH2);
+	$li.append($itemH2);
 	$list.append($li);
 
 })
