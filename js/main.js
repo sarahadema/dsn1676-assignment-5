@@ -6,9 +6,9 @@ $form.on('submit', function (e) {
 	e.preventDefault();
 
 	var $li = $('<li>');
-	var $itemH2 = $('<h2>').html($item.val());
+	var $itemP = $('<p>').html($item.val());
 
-	$li.append($itemH2);
+	$li.append($itemP);
 	$list.append($li);
 
 })
