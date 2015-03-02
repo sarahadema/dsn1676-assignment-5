@@ -1,8 +1,30 @@
+html{
+	background-color: #dcdcdc;
+}
+
+.form-style {
+	padding:1em 1em;
+	border: 2px solid #a9a9a9;
+	border-radius: 2%;
+	width: 50%;
+	background-color: #d3d3d3;
+}
+
+.to-do {
+	background-color: #d3d3d3;
+}
+
+.add {
+	border-radius: 10%;
+	border: 1px solid #a9a9a9;
+	padding: 1em;
+	background-color: #dcdcdc;
+}
+
 h2 {
-	background-color: red;
+	
 }
 
 .js-complete {
-	text-decoration-line: line-through;
-	text-decoration-style:solid;
+	border: solid;
 }
